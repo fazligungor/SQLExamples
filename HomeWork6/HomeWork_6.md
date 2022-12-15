@@ -1,15 +1,13 @@
-# SQLExamples
+HomeWork_6
 
-1- SELECT DISTINCT REPLACEMENT_COST FROM FILM
-
-
-2- SELECT COUNT(*) REPLACEMENT_COST FROM FILM
+1- Select Round(Avg(rental_rate),3) from film;
 
 
-3- SELECT COUNT(*) FROM FILM WHERE title LIKE 'T%' AND rating='G'
+2- Select Count(*) from film Where title like 'C%';
 
 
-4- SELECT COUNT(*) FROM COUNTRY WHERE country LIKE '_____'
+3- Select max(length) from film where rental_rate='0.99';
 
 
-5- SELECT COUNT(*) FROM city WHERE city ILIKE '%R'
+4- Select count(distinct replacement_cost) from film where length>150;
+
