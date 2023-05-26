@@ -30,3 +30,6 @@ WHERE first_name = 'Mary';
 SELECT * FROM film
 Where length<=50
 And Not (rental_rate=2.99 Or rental_rate=4.99)
+
+deneme
+deneme
